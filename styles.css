@@ -65,7 +65,7 @@ footer {
 
 .content-maker {
     background-color: lightgray;
-    width: 380px;
+    width: 280px;
     height: auto;
     border-radius: 15px;
     opacity: 0.8;
@@ -99,14 +99,19 @@ footer {
 @keyframes anime {
     0% {
         transform: scale(1);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
     }
 
     50% {
-        transform: scale(0.9);
+        transform: scale(1.1);
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(1.1);
     }
 }
 
